@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "barangs",
+  "info": {
+    "singularName": "barang",
+    "pluralName": "barangs",
+    "displayName": "Barang",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NamaBarang": {
+      "type": "string"
+    },
+    "Jenisbarang": {
+      "type": "string"
+    },
+    "Stokbarang": {
+      "type": "integer"
+    },
+    "Hargabarang": {
+      "type": "biginteger"
+    },
+    "Supliyer": {
+      "type": "string"
+    }
+  }
+}
